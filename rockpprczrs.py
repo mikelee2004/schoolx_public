@@ -1,5 +1,4 @@
-player1 = input('Камень, ножницы, бумага? ')
-player2 = input('Камень, ножницы, бумага? ')
+player1,player2 = input('Камень, ножницы, бумага? ').split()
 
 player1 = player1.lower()
 player2 = player2.lower()
